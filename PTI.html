@@ -1,0 +1,339 @@
+<!-- Muhammad Aamir Pasha Mughal, Student ID # 8941543 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTI</title>
+    <link rel="icon" type="image/favicon" href="./images/favicon/favicon.ico" />
+    <link rel="stylesheet" href="./styles/Style.css" />
+    <link rel="stylesheet" href="./styles/normalization.css" />
+  </head>
+  <body>
+    <!-- container Class-->
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="tagline">
+          <h1>Muhammad Aamir Pasha Mughal</h1>
+          <h1>Mmughal1543@conestogac.on.ca</h1>
+        </div>
+        <div class="logo">
+          <a href="./Home.html" target="_blank">
+            <img
+              src="./images/logo red 1200.jpg"
+              alt="logo"
+              style="width: 50%; padding: 35px 40px"
+            />
+          </a>
+        </div>
+      </header>
+      <!-- Navigation with links -->
+      <nav role="navigation">
+        <ul>
+          <li><a href="./Home.html" target="_blank">Home</a></li>
+          <li><a href="./SKMCH.html" target="_blank">SKMCH & Namal</a></li>
+          <!-- 2nd tier Navigation -->
+          <li>
+            <a href="./PTI.html" target="_blank">PTI</a>
+            <ul>
+              <li><a href="./PTI.html" target="_blank">PTI</a></li>
+              <li><a href="./PTI.html#video" target="_blank">Video</a></li>
+              <li>
+                <a href="./PTI.html#table-section" target="_blank">
+                  <!-- https://www.espncricinfo.com/cricketers/imran-khan-40560 -->
+                  Cricket table</a
+                >
+              </li>
+              <li>
+                <a href="./PTI.html#form-section" target="_blank"
+                  >Become Member</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="./Contact Us.html" target="_blank">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- Hero section -->
+
+      <section class="hero">
+        <img
+          src="./images/pexels-ylanite-koppens-776635.jpg"
+          alt="Hero Image"
+        />
+        <h1 class="inner-page-title">Pakistan Tahreek e Insaf</h1>
+      </section>
+
+      <!-- section 1 text -->
+      <section class="sec1text">
+        <h2>PTI's History</h2>
+        <!-- https://en.wikipedia.org/wiki/Pakistan_Tehreek-e-Insaf -->
+        <p>
+          The Pakistan Tehreek-e-Insaf (PTI; Urdu: پاکستان تحريکِ انصاف,
+          'Pakistan Movement for Justice') is a political party in Pakistan. It
+          was founded in 1996 by Pakistani cricketer-turned politician Imran
+          Khan, who served as the country's prime minister from 2018 to 2022.
+          The PTI is one of the three major Pakistani political parties
+          alongside the Pakistan Muslim League Nawaz (PML-N) and the Pakistan
+          People's Party (PPP), and it is the largest party in terms of
+          representation in the National Assembly of Pakistan since the 2018
+          general election. With over 10 million members in Pakistan and abroad,
+          it claims to be the country's largest political party by primary
+          membership as well as one of the largest political parties in the
+          world.
+        </p>
+        <p>
+          <!-- https://en.wikipedia.org/wiki/Pakistan_Tehreek-e-Insaf -->
+
+          Despite Khan's popular persona in Pakistan, the PTI had limited
+          initial success. it failed to win a single seat in the 1997 general
+          election and the 2002 general election. only Khan himself was able to
+          win a seat.
+        </p>
+      </section>
+      <!-- Video Section -->
+      <section id="video">
+        <video
+          width="560"
+          height="340"
+          controls
+          poster="./images/imran khan inner hero 2-1.jpg"
+        >
+          <!-- https://twitter.com/imranaraja1/status/1682702779838607360?s=48&t=npvW2815EXcjKhFtpoOfGw -->
+          <source
+            src="./media/IK Video.mp4"
+            type="video/mp4"
+            alt="Imran Khan Video"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <!-- Table section  -->
+      <section id="table-section">
+        <h2>Khan's Cricket Career</h2>
+        <div class="table-container">
+          <table>
+            <!-- https://www.espncricinfo.com/cricketers/imran-khan-40560  -->
+            <caption>
+              Batting and Bowling History
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Batting</th>
+                <th scope="col">Matches</th>
+                <th scope="col">Runs</th>
+                <th scope="col">Avg</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">TEST</td>
+                <td>88</td>
+                <td>3807</td>
+                <td>37.69</td>
+              </tr>
+              <tr>
+                <td scope="row">ODI</td>
+                <td>175</td>
+                <td>3709</td>
+                <td>33.41</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th scope="col">Bowling</th>
+                <th scope="col">Matches</th>
+                <th scope="col">Wickets</th>
+                <th scope="col">Avg</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">TEST</td>
+                <td>88</td>
+                <td>362</td>
+                <td>22.81</td>
+              </tr>
+              <tr>
+                <td scope="row">ODI</td>
+                <td>175</td>
+                <td>182</td>
+                <td>26.61</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Form section  -->
+
+      <section id="form-section">
+        <h2>Membership Form</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="dropdown">Select an Organization:</label>
+            <select id="dropdown" name="dropdown" required>
+              <optgroup label="SKMCH">
+                <option value="option1">SKMCH Lahore</option>
+                <option value="option2">SKMCH Peshawar</option>
+                <option value="option2">SKMCH Karachi</option>
+              </optgroup>
+              <optgroup label="PTI">
+                <option value="option3">PTI Pakistan</option>
+                <option value="option4">PTI Canada</option>
+                <option value="option2">PTI Punjab</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="textarea">Message:</label>
+            <textarea id="textarea" name="message" rows="4" required></textarea>
+          </div>
+          <!-- fieldset for checkbox -->
+          <div class="form-group">
+            <fieldset>
+              <legend>Choose one or more:</legend>
+              <label for="checkbox1">SKMCH Primary Membership $10</label>
+              <input
+                type="checkbox"
+                id="checkbox1"
+                name="checkbox"
+                value="option1"
+              />
+              <br />
+              <br />
+              <label for="checkbox2">SKMCH Plus Membership $50</label
+              ><input
+                type="checkbox"
+                id="checkbox2"
+                name="checkbox"
+                value="option2"
+              />
+              <br />
+              <br />
+              <label for="checkbox3">PTI Basic Membership $5</label
+              ><input
+                type="checkbox"
+                id="checkbox3"
+                name="checkbox"
+                value="option3"
+              />
+            </fieldset>
+          </div>
+          <!-- fieldset for radio buttons -->
+          <div class="form-group">
+            <fieldset>
+              <legend>Should we Contact you for more information?</legend>
+              <input
+                type="radio"
+                id="radio1"
+                name="radio"
+                value="option1"
+                required
+              />
+              <label for="radio1">Yes</label>
+              <input type="radio" id="radio2" name="radio" value="option2" />
+              <label for="radio2">No</label>
+            </fieldset>
+          </div>
+          <!-- Submit and reset button -->
+          <div class="form-buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <!-- Menu Section -->
+        <section class="Menu">
+          <!-- Column Section 1 -->
+          <section class="column">
+            <!-- https://en.wikipedia.org/wiki/Imran_Khan -->
+            <h3>Early Childhood</h3>
+            <a
+              href="https://en.wikipedia.org/wiki/Imran_Khan"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Imran_Khan"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Imran_Khan"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+          </section>
+          <!-- Column Section 2 -->
+          <section class="column">
+            <!-- https://www.espncricinfo.com/cricketers/imran-khan-40560 -->
+            <h3>Cricket Career</h3>
+            <a
+              href="https://www.espncricinfo.com/cricketers/imran-khan-40560"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://www.espncricinfo.com/cricketers/imran-khan-40560"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://www.espncricinfo.com/cricketers/imran-khan-40560"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+          </section>
+          <!-- Column Section 3 -->
+          <section class="column">
+            <!-- https://www.ikca.org.uk/about-ikca/imran-khan/ -->
+            <h3>Philanthropy</h3>
+            <a
+              href="https://www.ikca.org.uk/about-ikca/imran-khan/"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://www.ikca.org.uk/about-ikca/imran-khan/"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+            <a
+              href="https://www.ikca.org.uk/about-ikca/imran-khan/"
+              target="_blank"
+              class=""
+              >Learn More</a
+            >
+          </section>
+        </section>
+
+        <!-- Footer section -->
+        <section class="footer">
+          &copy Muhammad Aamir Pasha Mughal, Mmughal1543@conestogac.on.ca
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
